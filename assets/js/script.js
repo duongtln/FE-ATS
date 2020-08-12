@@ -83,12 +83,29 @@ intro.onexit(function () {
 
     // Animation Roadmap
 
-    gsap.from(".tool-img", {opacity: 0, scaleX: 0, duration: 0.7, delay: 0.5, stagger: 0.4, ease: "elastic"});
+    gsap.from(".tool-img", {
+        opacity: 0,
+        scaleX: 0,
+        duration: 0.7,
+        delay: 0.5,
+        stagger: 0.4,
+        ease: "elastic"
+    });
 
-    gsap.from(".text-tools", {opacity: 0, duration: 0.8, delay: 1, x:-30, stagger: 0.3})
+    gsap.from(".text-tools", {
+        opacity: 0,
+        duration: 0.8,
+        delay: 1,
+        x: -30,
+        stagger: 0.3
+    })
 
     //Timeline horizontal
-    gsap.from('.timeline-horizontal:before', {scaleX: 2, duration: 2, delay: 0.2});
+    gsap.from('.timeline-horizontal:before', {
+        scaleX: 2,
+        duration: 2,
+        delay: 0.2
+    });
 
     //Clock icon
     gsap.from(".time-clock", {
