@@ -1,0 +1,181 @@
+.page-content {
+    /*margin-left: 17rem;*/
+    transition: all 0.4s;
+}
+
+.row-main {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+h2.display-4 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*Sources*/
+
+.card.block-sources:hover {
+    box-shadow: 0px 5px 10px #cae5e0;
+}
+
+.let-go {
+    display: none;
+    font-family: 'Fredoka One', cursive;
+    color: #fff !important;
+}
+
+h4.card-title.source-name {
+    color: #ffffff;
+    text-align: center;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.icon-content {
+    width: 5rem;
+}
+
+.inner-img {
+    transition: 0.3s;
+}
+
+button.btn.btn-block {
+    background-color: #51cc48;
+    outline: none;
+    box-shadow: none;
+}
+
+button.btn.btn-block svg {
+    transform-origin: 50% 60%;
+    transition: transform 2s, filter 3s ease-in-out;
+    filter: brightness(150%);
+}
+
+button.btn.btn-block:hover .let-go {
+    display: inline;
+    color: #273031;
+}
+
+button.btn.btn-block:hover svg {
+    transform: translate(2.5em, 0);
+    overflow-x: hidden;
+}
+
+button.btn.btn-block:hover {
+    background-color: #1d8b36ed;
+}
+
+
+li.list-group-item {
+    border: none;
+}
+
+li.list-group-item:hover {
+    color: #41a979;
+}
+
+.content-wrapper.d-flex.align-items-stretch {
+    height: 12rem;
+}
+
+.list-group-flush>.list-group-item {
+    padding: 0.5rem 0em;
+    font-family: 'Quicksand', sans-serif;
+    color: #00000099;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+ul.list-group.list-group-flush {
+    justify-content: center;
+    width: 10em;
+    cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+    img.icon-content {
+        width: 4rem;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1450px) {
+
+    .content-wrapper.d-flex.align-items-stretch {
+        height: 14rem;
+    }
+
+    ul.list-group.list-group-flush {
+        width: 7em;
+    }
+}
+
+@media (max-width: 992px) {
+
+    h2.text-monospace.font-weight-bold.display-4.text-right {
+        text-align: center !important;
+    }
+
+    .my-2 {
+        display: none;
+    }
+
+    div#sidebar {
+        order: 2;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+@media (max-width: 340px) {
+    img.icon-content {
+        width: 3rem !important;
+    }
+}
+
+.materials {
+    background-image: radial-gradient(115% 80% at top left, transparent 90%, #fff 95.5%),
+        linear-gradient(to right bottom, #39df9c, #3adb89, #40d675, #48d160, #51cc48);
+    border: 1px solid #cdcdcd;
+}
+
+span.content-item {
+    background-color: #f0ffffde;
+    box-shadow: 10px 10px 10px #abababcc;
+    color: #fff;
+}
+
+.content-item>a.nav-link.hvr-skew-forward {
+    color: #648e6b;
+    font-weight: 700;
+}
+
+/* FE Academy */
+
+/* Version2 */
+.with-chevron[aria-expanded='true'] i {
+    display: block;
+    transform: rotate(180deg) !important;
+}
+
+.btn-menuOne,
+.btn-menuTwo,
+.btn-menuThree {
+    background-color: #0ca75e !important;
+}
+
+.btn-menuOne:hover,
+.btn-menuTwo:hover,
+.btn-menuThree:hover {
+    background-color: #008848c4 !important;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}

@@ -1,0 +1,63 @@
+section.py-1.tools {
+    background-color: #fff;
+    transition: all 0.4s;
+}
+
+.text-monospace {
+    color: rgba(0, 0, 0, .5);
+    font-size: 2rem;
+}
+
+.block-tool.d-flex.flex-column.align-items-center.justify-content-center {
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+    /*    box-shadow: 0 0 2px #7f7f7f;
+    border-radius: 5px;
+    padding: 10px 20px;
+    max-height: 5em;
+    background-color: #fff;*/
+}
+
+
+.block-tool.d-flex.flex-column.align-items-center.justify-content-center:hover {
+    transform: scale(1.2);
+}
+
+.block-tool.d-flex.flex-column.align-items-center.justify-content-center>svg:hover {
+    fill: #A7BC5B;
+}
+
+.tool-img {
+    padding: 10px;
+    background-color: #EDE6FE;
+    border-radius: 30%;
+}
+
+.text-tools {
+    color: #1f5b28b0;
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width: 576px) {
+    .block-tool.d-flex.align-items-center.justify-content-around {
+        flex-wrap: wrap;
+    }
+
+    .block-tool.d-flex.flex-column.align-items-center.justify-content-center>svg {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+/*Iphone 5/SE*/
+@media (max-width: 340px) {
+    .block-tool {
+        font-size: 15px;
+    }
+
+    .tool-img>svg {
+        width: 2rem;
+        height: 1.5rem;
+    }
+
+}

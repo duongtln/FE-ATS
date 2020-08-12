@@ -1,0 +1,2664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FE ATS</title>
+   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Work+Sans&Quicksand:wght@300&family=Mitr:wght@500&family=Varela+Round&display=swap&family=Raleway&display=swap&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/header.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/slider.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/tool.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/curriculum.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/roadmap.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/hover-min.css">
+    <link rel="stylesheet" type="text/css" type="text/css" href="./assets/css/introjs.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/introjs-theme.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/progress-chart.css">
+    <script src="./assets/js/font-awesome.js"></script>
+    <script src="./assets/js/dragscroll.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <!-- ↓ BLOCK NAVBAR LOGO & FUNCTION ↓ -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand" id="logo-text-fixed">
+                    <!-- LOGO TEXT -->
+                    <img src="https://training.fecredit.com.vn/theme/image.php/atstwo/theme/1596021171/logo-vn" alt=""
+                        class="d-inline-block align-middle mr-2">
+                </a>
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler">
+                    <ul class="navbar-nav ml-auto  align-items-center flex-row">
+                        <div class="count-noti"><span class="badge badge-primary">2</span></div>
+                        <div class="dropdown">
+                            <li class="nav-item">
+                                <!-- NOTIFICATION -->
+                                <a href="#" class="nav-link" id="navbarDropdown" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <div class="icon-function">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bell" fill="#000"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z" />
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+                                        </svg>
+                                    </div>
+                                </a>
+                                <div class="func dropdown-menu noti-dropdown">
+                                    <h5 class="ml-3">Thông báo</h5>
+                                    <ul class="list-group notification">
+                                        <li class="list-group-item item-noti seen">
+                                            <img class="w-12" src="./assets/icons/attention.svg">
+                                            <div class="content-noti">
+                                                <span class="title-noti">Khóa học ABC sắp kết thúc, mời bạn hoàn
+                                                    thành</span>
+                                                <span class="time-noti">4 giờ trước</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item item-noti seen">
+                                            <img class="w-12" src="./assets/icons/success.svg">
+                                            <div class="content-noti">
+                                                <span class="title-noti">Chúc mừng bạn đã hoàn thành khóa học cho
+                                                    nhân
+                                                    viên mới</span>
+                                                <span class="time-noti">3 giờ trước</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item item-noti ">
+                                            <img class="w-12" src="./assets/icons/invite.svg">
+                                            <div class="content-noti">
+                                                <span class="title-noti">Admin đã mời bạn tham gia khóa học cho nhân
+                                                    viên mới</span>
+                                                <span class="time-noti">2 giờ trước</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="dropdown">
+                            <!-- SEARCH -->
+                            <li class="nav-item">
+                                <a href="#" class="nav-link" id="navbarDropdown" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <div class="icon-function">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search"
+                                            fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                                            <path fill-rule="evenodd"
+                                                d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                                        </svg>
+                                    </div>
+                                </a>
+                                <div class="func dropdown-menu search-dropdown table-responsive">
+                                    <div class="form-group mb-4 p-2">
+                                        <input id="selector" type="text" placeholder="What're you searching for?"
+                                            class="form-control form-control-underlined border-info">
+                                    </div>
+                                    <table class="table table-hover" id="table-suggestion">
+                                        <tbody>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Quản Lý Rủi Ro Hoạt Động Cơ Bản</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Pháp Lý Và Tuân Thủ Tại VPB FC</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Giá trị cốt lõi của FE</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Nội quy lao động</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Thỏa ước lao động tập thể</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Phòng Tránh Khủng Hoảng Truyền
+                                                        Thông</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Đào Tạo Về Nhận Thức An Toàn Bảo Mật
+                                                        Thông Tin / Information Security Awareness Training Module -
+                                                        2020</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Văn Bản Nhân Sự/HR Document</a></td>
+                                            </tr>
+                                            <tr class="text-center">
+                                                <td><a class="card-link" href="#">...</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </div>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <div class="icon-function">
+                                    <!-- <img src="./assets/icons/vietnam.svg" alt="VI" style="width: 1em; height: 1em;"> -->
+                                    <span>VI</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </button>
+    
+                <div class="collapse navbar-collapse ">
+                    <ul class="navbar-nav ml-auto  align-items-center" id="function-fixed">
+    
+                        <div class="count-noti"><span class="badge badge-primary">2</span></div>
+                        <div class="dropdown">
+                            <li class="nav-item" id="intro-step-1">
+                                <!-- NOTIFICATION -->
+                                <a href="#" class="nav-link" id="navbarDropdown" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <div class="icon-function">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bell" fill="#000"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z" />
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+                                        </svg>
+                                    </div>
+                                </a>
+                                <div class="func dropdown-menu noti-dropdown">
+                                    <h5 class="ml-3">Thông báo</h5>
+                                    <ul class="list-group notification">
+                                        <li class="list-group-item item-noti seen">
+                                            <img class="w-12" src="./assets/icons/attention.svg">
+                                            <div class="content-noti">
+                                                <span class="title-noti">Khóa học ABC sắp kết thúc, mời bạn hoàn
+                                                    thành</span>
+                                                <span class="time-noti">4 giờ trước</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item item-noti seen">
+                                            <img class="w-12" src="./assets/icons/success.svg">
+                                            <div class="content-noti">
+                                                <span class="title-noti">Chúc mừng bạn đã hoàn thành khóa học cho
+                                                    nhân
+                                                    viên mới</span>
+                                                <span class="time-noti">3 giờ trước</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item item-noti ">
+                                            <img class="w-12" src="./assets/icons/invite.svg">
+                                            <div class="content-noti">
+                                                <span class="title-noti">Admin đã mời bạn tham gia khóa học cho nhân
+                                                    viên mới</span>
+                                                <span class="time-noti">2 giờ trước</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="dropdown">
+                            <!-- SEARCH -->
+                            <li class="nav-item" id="intro-step-2">
+                                <a href="#" class="nav-link" id="navbarDropdown" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <div class="icon-function">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search"
+                                            fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                                            <path fill-rule="evenodd"
+                                                d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                                        </svg>
+                                    </div>
+                                </a>
+                                <div class="func dropdown-menu search-dropdown table-responsive">
+                                    <div class="form-group mb-4 p-2">
+                                        <input id="selector" type="text" placeholder="What're you searching for?"
+                                            class="form-control form-control-underlined border-info">
+                                    </div>
+                                    <table class="table table-hover" id="table-suggestion">
+                                        <tbody>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Quản Lý Rủi Ro Hoạt Động Cơ Bản</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Pháp Lý Và Tuân Thủ Tại VPB FC</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Giá trị cốt lõi của FE</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Nội quy lao động</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Thỏa ước lao động tập thể</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Phòng Tránh Khủng Hoảng Truyền
+                                                        Thông</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Đào Tạo Về Nhận Thức An Toàn Bảo Mật
+                                                        Thông Tin / Information Security Awareness Training Module -
+                                                        2020</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a class="card-link" href="#">Văn Bản Nhân Sự/HR Document</a></td>
+                                            </tr>
+                                            <tr class="text-center">
+                                                <td><a class="card-link" href="#">...</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </div>
+                        <li class="nav-item" id="intro-step-3">
+                            <a href="#" class="nav-link">
+                                <div class="icon-function">
+                                    <div class="isHide" onclick="toggleLang(this)"><span>VI</span></div>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- USER INFO  -->
+                        <div class="dropdown" id="intro-step-4">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link" id="navbarDropdown" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <div class="icon-function">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-circle"
+                                            fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z" />
+                                            <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                            <path fill-rule="evenodd"
+                                                d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z" />
+                                        </svg>
+                                    </div>
+                                </a>
+                                <div class="func dropdown-menu info-user">
+                                    <a class="dropdown-item" href="#">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M13 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM3.022 13h9.956a.274.274 0 0 0 .014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 0 0 .022.004zm9.974.056v-.002.002zM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                        </svg>
+                                        Lê Nguyễn Thái Dương</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-text"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                                            <path fill-rule="evenodd"
+                                                d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z" />
+                                        </svg>Hồ sơ</a>
+                                    <a class="dropdown-item" href="#">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-dots"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z" />
+                                            <path
+                                                d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                        </svg>Tin nhắn</a>
+                                    <a class="dropdown-item" href="#">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-gear"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M8.837 1.626c-.246-.835-1.428-.835-1.674 0l-.094.319A1.873 1.873 0 0 1 4.377 3.06l-.292-.16c-.764-.415-1.6.42-1.184 1.185l.159.292a1.873 1.873 0 0 1-1.115 2.692l-.319.094c-.835.246-.835 1.428 0 1.674l.319.094a1.873 1.873 0 0 1 1.115 2.693l-.16.291c-.415.764.42 1.6 1.185 1.184l.292-.159a1.873 1.873 0 0 1 2.692 1.116l.094.318c.246.835 1.428.835 1.674 0l.094-.319a1.873 1.873 0 0 1 2.693-1.115l.291.16c.764.415 1.6-.42 1.184-1.185l-.159-.291a1.873 1.873 0 0 1 1.116-2.693l.318-.094c.835-.246.835-1.428 0-1.674l-.319-.094a1.873 1.873 0 0 1-1.115-2.692l.16-.292c.415-.764-.42-1.6-1.185-1.184l-.291.159A1.873 1.873 0 0 1 8.93 1.945l-.094-.319zm-2.633-.283c.527-1.79 3.065-1.79 3.592 0l.094.319a.873.873 0 0 0 1.255.52l.292-.16c1.64-.892 3.434.901 2.54 2.541l-.159.292a.873.873 0 0 0 .52 1.255l.319.094c1.79.527 1.79 3.065 0 3.592l-.319.094a.873.873 0 0 0-.52 1.255l.16.292c.893 1.64-.902 3.434-2.541 2.54l-.292-.159a.873.873 0 0 0-1.255.52l-.094.319c-.527 1.79-3.065 1.79-3.592 0l-.094-.319a.873.873 0 0 0-1.255-.52l-.292.16c-1.64.893-3.433-.902-2.54-2.541l.159-.292a.873.873 0 0 0-.52-1.255l-.319-.094c-1.79-.527-1.79-3.065 0-3.592l.319-.094a.873.873 0 0 0 .52-1.255l-.16-.292c-.892-1.64.902-3.433 2.541-2.54l.292.159a.873.873 0 0 0 1.255-.52l.094-.319z" />
+                                            <path fill-rule="evenodd"
+                                                d="M8 5.754a2.246 2.246 0 1 0 0 4.492 2.246 2.246 0 0 0 0-4.492zM4.754 8a3.246 3.246 0 1 1 6.492 0 3.246 3.246 0 0 1-6.492 0z" />
+                                        </svg>
+                                        Tùy chọn</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                            class="bi bi-box-arrow-in-right" fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M8.146 11.354a.5.5 0 0 1 0-.708L10.793 8 8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0z" />
+                                            <path fill-rule="evenodd"
+                                                d="M1 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 1 8z" />
+                                            <path fill-rule="evenodd"
+                                                d="M13.5 14.5A1.5 1.5 0 0 0 15 13V3a1.5 1.5 0 0 0-1.5-1.5h-8A1.5 1.5 0 0 0 4 3v1.5a.5.5 0 0 0 1 0V3a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5h-8A.5.5 0 0 1 5 13v-1.5a.5.5 0 0 0-1 0V13a1.5 1.5 0 0 0 1.5 1.5h8z" />
+                                        </svg>
+                                        Thoát</a>
+                                </div>
+                            </li>
+                        </div>
+                        <!-- LOGO IMAGE -->
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <img id="logo-tc"
+                                    src="https://training.fecredit.com.vn/theme/image.php/atstwo/theme/1596021171/logoTC_100"
+                                    style="width:70px">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ↑ BLOCK NAVBAR LOGO & FUNCTION ↑ -->
+        <!-- ↓ BLOCK MEGA MENU ↓ -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm menu-fixed" id="menu-fixed">
+            <a href="#" class="navbar-brand font-weight-bold d-block d-lg-none">
+                <img id="logo-tc"
+                    src="https://training.fecredit.com.vn/theme/image.php/atstwo/theme/1596021171/logoTC_100"
+                    style="width:60px">
+            </a>
+            <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars"
+                aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav mx-auto" id="intro-step-5">
+                    <!-- Megamenu-->
+                    <li class="nav-item dropdown megamenu mr-2">
+                        <a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            class="hover nav-link dropdown-toggle font-weight-bold text-uppercase">Khóa học</a>
+                        <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                            <div class="container-fluid">
+                                <div class="row bg-white rounded-0 shadow-sm">
+                                    <div class="col-lg-6 col-xl-7">
+                                        <div class="p-4">
+                                            <div class="row">
+                                                <div class="col-lg-6 mb-4">
+                                                    <h6 class="font-weight-bold text-uppercase">School of Sales</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0">POS</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">DAS</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">TSA</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">3rd Party</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">Other</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 mb-4">
+                                                    <h6 class="font-weight-bold text-uppercase">School of Recovery</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">Early
+                                                                Collection</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">Field
+                                                                Collection</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">Creadit Card
+                                                                Collection</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">Late Call
+                                                                Collection</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 mb-4">
+                                                    <h6 class="font-weight-bold text-uppercase">FE Academy</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">CS</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 mb-4">
+                                                    <h6 class="font-weight-bold text-uppercase">Nhân sự</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">PMS Tool</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">Hướng dẫn quyết
+                                                                toán thuế TNCN</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 mb-4">
+                                                    <h6 class="font-weight-bold text-uppercase">Business Acumen</h6>
+                                                </div>
+                                                <div class="col-lg-6 mb-4">
+                                                    <h6 class="font-weight-bold text-uppercase">Trưởng Văn Phòng Đại
+                                                        Diện
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-xl-5 px-0 d-none d-lg-block">
+                                        <div class="p-4">
+                                            <div class="row">
+                                                <div class="col-lg-12 mb-4">
+                                                    <h6 class="font-weight-bold text-uppercase">Đào tạo bắt buộc</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">Chương trình
+                                                                hội
+                                                                nhập</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">Giá trị cốt
+                                                                lỗi</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">Risk</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">Legal</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="" class="nav-link text-small pb-0 ">Đào tạo về nhận
+                                                                thức an toàn bảo mật thông
+                                                                tin</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a href="" class="hover nav-link font-weight-bold text-uppercase">Tài
+                            nguyên</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a href="" class="hover nav-link font-weight-bold text-uppercase">Lịch</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a href="" class="hover nav-link font-weight-bold text-uppercase">Diễn
+                            đàn</a>
+                    </li>
+                    <li class="nav-item mr-2"><a href=""
+                            class="hover nav-link font-weight-bold text-uppercase">Follow-up</a>
+                    </li>
+                    <li class="nav-item mr-2"><a href="" class="hover nav-link font-weight-bold text-uppercase">Đánh giá
+                            sau đào tạo</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- ↑ BLOCK MEGA MENU ↑ -->
+    </header>
+
+    <!-- ↓ BLOCK SLIDER ↓ -->
+    <section class="py-1 text-white">
+        <div class="container-fluid py-1">
+            <div class="col-lg-12 mx-auto text-center slider">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+
+                        <div class="carousel-item active"
+                            style="background-image: url('https://training.fecredit.com.vn/pluginfile.php/1/theme_atstwo/slide9image/1596021171/9-orientation.png'); background-size: contain;">
+                        </div>
+
+                        <div class="carousel-item"
+                            style="background-image: url('https://training.fecredit.com.vn/pluginfile.php/1/theme_atstwo/slide7image/1596021171/Training-Catalog.jpg'); background-size: contain;">
+                        </div>
+
+                        <div class="carousel-item"
+                            style="background-image: url('https://training.fecredit.com.vn/pluginfile.php/1/theme_atstwo/slide1image/1596021171/Mandatory-Training.jpg'); background-size: contain;">
+                        </div>
+
+                        <div class="carousel-item"
+                            style="background-image: url('https://training.fecredit.com.vn/pluginfile.php/1/theme_atstwo/slide3image/1596021171/banner-Leadeship.jpg'); background-size: contain;">
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ↑ BLOCK SLIDER ↑ -->
+    <!-- ↓ BLOCK TOOLS ↓ -->
+    <section class="py-3 tools">
+        <div class="container-fluid py-4">
+            <div class="row mx-auto text-center" id="intro-step-6">
+                <div
+                    class="col col-4 col-xl-2 col-lg-2 col-md-2 col-sm-4 block-tool d-flex flex-column align-items-center justify-content-center mb-3">
+                    <div class="tool-img">
+                        <svg width="2.5rem" height="2rem" viewBox="0 0 16 16" class="bi bi-file-earmark-text"
+                            fill="#3EB650" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z" />
+                            <path d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z" />
+                            <path fill-rule="evenodd"
+                                d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </div>
+                    <span class="hvr-buzz title-tool text-tools font-weight-bold mt-1">Danh mục</span>
+                </div>
+                <div
+                    class="col col-4 col-xl-2 col-lg-2 col-md-2 col-sm-4 block-tool d-flex flex-column align-items-center justify-content-center mb-3">
+                    <div class="tool-img">
+                        <svg width="2.5rem" height="2rem" viewBox="0 0 16 16" class="bi bi-people-fill" fill="#3EB650"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+                        </svg>
+                    </div>
+                    <span class="hvr-buzz title-tool text-tools font-weight-bold mt-1">Coaching</span>
+                </div>
+                <div
+                    class="col col-4 col-xl-2 col-lg-2 col-md-2 col-sm-4 block-tool d-flex flex-column align-items-center justify-content-center mb-3">
+                    <div class="tool-img">
+                        <svg width="2.5rem" height="2rem" viewBox="0 0 16 16" class="bi bi-minecart-loaded"
+                            fill="#3EB650" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M4 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8-1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM.115 3.18A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 14 12H2a.5.5 0 0 1-.491-.408l-1.5-8a.5.5 0 0 1 .106-.411zm.987.82l1.313 7h11.17l1.313-7H1.102z" />
+                            <path fill-rule="evenodd"
+                                d="M6 1.5a2.498 2.498 0 0 1 4 0c.818 0 1.545.394 2 1 .67 0 1.28.265 1.729.694l-.692.722A1.493 1.493 0 0 0 12 3.5c-.314 0-.611-.15-.8-.4-.274-.365-.71-.6-1.2-.6-.314 0-.611-.15-.8-.4a1.497 1.497 0 0 0-2.4 0c-.189.25-.486.4-.8.4-.507 0-.955.251-1.228.638a2.65 2.65 0 0 1-.634.634 1.511 1.511 0 0 0-.263.236l-.75-.662a2.5 2.5 0 0 1 .437-.391 1.63 1.63 0 0 0 .393-.393A2.498 2.498 0 0 1 6 1.5z" />
+                        </svg>
+                    </div>
+                    <span class="hvr-buzz title-tool text-tools font-weight-bold mt-1">Sản phẩm</span>
+                </div>
+                <div
+                    class="col col-4 col-xl-2 col-lg-2 col-md-2 col-sm-4 block-tool d-flex flex-column align-items-center justify-content-center mb-3">
+                    <div class="tool-img">
+                        <svg width="2.5rem" height="2rem" viewBox="0 0 16 16" class="bi bi-diagram-3" fill="#3EB650"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M0 11.5A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm4.5.5A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm4.5.5a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6h-1A1.5 1.5 0 0 1 6 4.5v-1zM7.5 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z" />
+                            <path fill-rule="evenodd"
+                                d="M8 5a.5.5 0 0 1 .5.5V7H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V5.5A.5.5 0 0 1 8 5z" />
+                        </svg>
+                    </div>
+                    <span class="hvr-buzz title-tool text-tools font-weight-bold mt-1">Roadmap</span>
+                </div>
+                <div
+                    class="col col-4 col-xl-2 col-lg-2 col-md-2 col-sm-4 block-tool d-flex flex-column align-items-center justify-content-center mb-3">
+                    <div class="tool-img">
+                        <svg width="2.5rem" height="2rem" viewBox="0 0 16 16" class="bi bi-diagram-3" fill="#3EB650"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M0 11.5A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm4.5.5A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm4.5.5a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6h-1A1.5 1.5 0 0 1 6 4.5v-1zM7.5 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z" />
+                            <path fill-rule="evenodd"
+                                d="M8 5a.5.5 0 0 1 .5.5V7H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V5.5A.5.5 0 0 1 8 5z" />
+                        </svg>
+                    </div>
+                    <span class="hvr-buzz title-tool text-tools font-weight-bold mt-1">Roadmap</span>
+                </div>
+                <div
+                    class="col col-4 col-xl-2 col-lg-2 col-md-2 col-sm-4 block-tool d-flex flex-column align-items-center justify-content-center mb-3">
+                    <div class="tool-img">
+                        <svg width="2.5rem" height="2rem" viewBox="0 0 16 16" class="bi bi-diagram-3" fill="#3EB650"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M0 11.5A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm4.5.5A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm4.5.5a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6h-1A1.5 1.5 0 0 1 6 4.5v-1zM7.5 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z" />
+                            <path fill-rule="evenodd"
+                                d="M8 5a.5.5 0 0 1 .5.5V7H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V5.5A.5.5 0 0 1 8 5z" />
+                        </svg>
+                    </div>
+                    <span class="hvr-buzz title-tool text-tools font-weight-bold mt-1">Roadmap</span>
+                </div>
+            </div>
+    </section>
+    <!-- ↑ BLOCK TOOLS ↑ -->
+    <!-- ↓ BLOCK ROADMAP ↓ -->
+    <div class="container-fluid roadmap">
+        <div class="row" id="intro-step-7">
+            <div class="col-md-10 offset-md-1 mb-4 timeline-z-index">
+                <div class="dragscroll">
+                    <ul class="timeline timeline-horizontal">
+                        <li class="timeline-item timeline-clock">
+                            <div class="timeline-date">
+                                <span>0 Tháng</span>
+                            </div>
+                            <div class="timeline-badge info time-clock"><i class="fa fa-clock-o"></i></div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-badge success time-tick-complete"><i class="fa fa-check-circle"></i></div>
+                            <div class="timeline-panel timeline-complete text-center text-white font-weight-bold">
+                                <div class="timeline-heading">
+                                    <p class="timeline-title" data-toggle="modal" data-target="#ob-fc-loans-bbc">OB FC
+                                        Loans BCC</p>
+                                    <p><small class=""><i class="fa fa-clock-o"></i> 2 Tháng</small></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item timeline-clock">
+                            <div class="timeline-date">
+                                <span>2 Tháng</span>
+                            </div>
+                            <div class="timeline-badge info time-clock"><i class="fa fa-clock-o"></i></div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-badge success time-tick-complete"><i class="fa fa-check-circle"></i></div>
+                            <div class="timeline-panel timeline-complete text-center text-white font-weight-bold">
+                                <div class="timeline-heading">
+                                    <p class="timeline-title">Problem Solving</p>
+                                    <p><small class=""><i class="fa fa-clock-o"></i> 2 Tháng</small></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item timeline-clock">
+                            <div class="timeline-date">
+                                <span>6 Tháng</span>
+                            </div>
+                            <div class="timeline-badge info time-clock"><i class="fa fa-clock-o"></i></div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-badge success time-tick-complete"><i class="fa fa-check-circle"></i></div>
+                            <div class="timeline-panel timeline-complete text-center text-white font-weight-bold">
+                                <div class="timeline-heading">
+                                    <p class="timeline-title">Problem Solving</p>
+                                    <p><small class=""><i class="fa fa-clock-o"></i> 12 Tháng</small></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-badge success time-tick-complete"><i class="fa fa-check-circle"></i></div>
+                            <div class="timeline-panel timeline-complete text-center text-white font-weight-bold">
+                                <div class="timeline-heading">
+                                    <p class="timeline-title">Potential Leader</p>
+                                    <p><small class=""><i class="fa fa-clock-o"></i> 12 Tháng</small></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-badge success time-tick-complete"><i class="fa fa-check-circle"></i></div>
+                            <div class="timeline-panel timeline-complete text-center text-white font-weight-bold">
+                                <div class="timeline-heading">
+                                    <p class="timeline-title">FE CREDIT Core Values</p>
+                                    <p><small class=""><i class="fa fa-clock-o"></i> 12 Tháng</small></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-badge time-tick-uncomplete"><i class="fa fa-times-circle"></i></div>
+                            <div class="timeline-panel timeline-uncomplete text-center text-white font-weight-bold">
+                                <div class="timeline-heading">
+                                    <p class="timeline-title">Handling Objections base on customer psychology</p>
+                                    <p><small class=""><i class="fa fa-clock-o"></i> 12 Tháng</small></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item timeline-clock">
+                            <div class="timeline-date">
+                                <span>12 Tháng</span>
+                            </div>
+                            <div class="timeline-badge info time-clock"><i class="fa fa-clock-o"></i></div>
+                        </li>
+                        <li class="timeline-item timeline-clock">
+                            <div class="timeline-badge primary time-target"><i class="fa fa-map-marker"></i></div>
+                            <div class="timeline-panel time-working text-white font-weight-bold text-center">
+                                <div class="timeline-heading">
+                                    <p class="timeline-title">Thời gian vào làm việc</p>
+                                    <p><small class=""><i class="fa fa-clock-o"></i> 55 Tháng</small></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item ">
+                            <div class="timeline-badge timeline-end"><i class="fa fa-chevron-right"></i></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="ob-fc-loans-bbc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">OB FC Loans BCC</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="shadow mb-4">
+                        <ul class="list-bullets">
+                            <li class="mb-2">Thời gian lộ trình: <strong> 12Tháng</strong></li>
+                            <li class="mb-2">Tên lớp: <strong> Potential Leader_02/12/2019_HÀ NỘI</strong></li>
+                            <li class="mb-2">Kết quả: <strong> Đạt</strong></li>
+                            <li class="mb-2"><strong>02/12/2019</strong></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ↑ BLOCK ROADMAP ↑ -->
+    <!-- ↓ BLOCK MAIN ↓ -->
+    <!-- ↓ BLOCK SOURCES ↓ -->
+    <section class="py-1 main">
+        <div class="container-fluid py-1">
+            <div class="row-main ">
+                <!-- Vertical navbar -->
+                <div class="vertical-nav col-lg-2 mx-auto text-center" id="sidebar">
+                    <div class="row ml-1 mr-1">
+                        <div class="mx-auto">
+
+                            <div class="card shadow mb-4">
+                                <div class="card-body">
+                                    <h4 class="mb-4">Các khóa đào tạo online bắt buộc</h4>
+
+                                    <ul class="list-unstyled text-left">
+                                        <li class="mb-2">Lorem ipsum dolor sit amet.</li>
+                                        <li class="mb-2">Consectetur adipisicing elit.</li>
+                                        <li class="mb-2">Sed do eiusmod tempor incididunt.</li>
+                                        <li class="mb-2">Ut labore et dolore magna aliqua. </li>
+                                        <li class="mb-2">Exercitation ullamco laboris nisi.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="card shadow mb-4">
+                                <div class="card-body">
+                                    <h4 class="mb-4">Webinar</h4>
+
+                                    <ul class="list-unstyled text-left">
+                                        <li class="mb-2">Lorem ipsum dolor sit amet.</li>
+                                        <li class="mb-2">Consectetur adipisicing elit.</li>
+                                        <li class="mb-2">Sed do eiusmod tempor incididunt.</li>
+                                        <li class="mb-2">Ut labore et dolore magna aliqua. </li>
+                                        <li class="mb-2">Exercitation ullamco laboris nisi.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="card shadow mb-4">
+                                <div class="card-body">
+                                    <h4 class="mb-4">Training Grid</h4>
+
+                                    <ul class="list-unstyled text-left">
+                                        <li class="mb-2">Lorem ipsum dolor sit amet.</li>
+                                        <li class="mb-2">Consectetur adipisicing elit.</li>
+                                        <li class="mb-2">Sed do eiusmod tempor incididunt.</li>
+                                        <li class="mb-2">Ut labore et dolore magna aliqua. </li>
+                                        <li class="mb-2">Exercitation ullamco laboris nisi.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="card shadow mb-4">
+                                <div class="card-body">
+                                    <h4 class="mb-4">Ordered list</h4>
+
+                                    <ul class="list-unstyled text-left">
+                                        <li class="mb-2">Lorem ipsum dolor sit amet.</li>
+                                        <li class="mb-2">Consectetur adipisicing elit.</li>
+                                        <li class="mb-2">Sed do eiusmod tempor incididunt.</li>
+                                        <li class="mb-2">Sed do eiusmod tempor incididunt.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="card shadow mb-4">
+                                <div class="card-body">
+                                    <h4 class="mb-4">Ordered list</h4>
+
+                                    <ul class="list-unstyled text-left">
+                                        <li class="mb-2">Lorem ipsum dolor sit amet.</li>
+                                        <li class="mb-2">Consectetur adipisicing elit.</li>
+                                        <li class="mb-2">Sed do eiusmod tempor incididunt.</li>
+                                        <li class="mb-2">Ut labore et dolore magna aliqua. </li>
+                                        <li class="mb-2">Exercitation ullamco laboris nisi.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="card shadow mb-4">
+                                <div class="card-body">
+                                    <h4 class="mb-4">Ordered list</h4>
+
+                                    <ul class="list-unstyled text-left">
+                                        <li class="mb-2">Lorem ipsum dolor sit amet.</li>
+                                        <li class="mb-2">Consectetur adipisicing elit.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- End vertical navbar -->
+                <!-- Page content holder -->
+                <div class="page-content col-lg-10 mx-auto mb-3" id="content">
+                    <!-- <h2 class="text-monospace font-weight-bold display-4 text-left">MATERIALS</h2>
+                    <hr class="my-2" /> -->
+                    <!-- Version 1 -->
+                    <div class="container-fluid bg-white rounded shadow">
+                        <div class="row card-deck" id="intro-step-8">
+                            <div class="card block-sources hvr-grow col col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 materials mr-5"
+                                id="loaded-soss">
+                                <div
+                                    class="card-body h-100 materials-item d-flex flex-row justify-content-around align-items-center">
+                                    <div class="content-title">
+                                        <h4 class="card-title text-center source-name">School Of Sales <br> &
+                                            Service</h4>
+                                    </div>
+                                    <div class="content-wrapper d-flex flex-column">
+                                        <span class="badge badge-pill badge-info mb-2 content-item">
+                                            <a href="#" class="nav-link hvr-skew-forward">POS</a>
+                                        </span>
+                                        <span class="badge badge-pill badge-info mb-2 content-item">
+                                            <a href="#" class="nav-link hvr-skew-forward">DIRECT SALES</a>
+                                        </span>
+                                        <span class="badge badge-pill badge-info mb-2 content-item">
+                                            <a href="#" class="nav-link hvr-skew-forward">TOPUP & XSELL</a>
+                                        </span>
+                                        <span class="badge badge-pill badge-info mb-2 content-item">
+                                            <a href="#" class="nav-link hvr-skew-forward">LEAD GENERATION</a>
+                                        </span>
+                                        <span class="badge badge-pill badge-info mb-2 content-item">
+                                            <a href="#" class="nav-link hvr-skew-forward">BANCASSURANCE</a>
+                                        </span>
+                                        <span class="badge badge-pill badge-info content-item">
+                                            <a href="#" class="nav-link hvr-skew-forward">OTHER</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card block-sources hvr-grow col col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 materials"
+                                id="loaded-sor">
+                                <div
+                                    class="card-body  materials-item d-flex flex-row justify-content-around align-items-center">
+                                    <div class="content-title">
+                                        <h4 class="card-title text-center source-name">School Of Recovery</h4>
+                                    </div>
+
+                                    <div class="content-wrapper d-flex flex-column">
+                                        <span class="badge badge-pill badge-info mb-2 content-item">
+                                            <a href="#" class="nav-link hvr-skew-forward">EARLY COLLECTION</a>
+                                        </span>
+                                        <span class="badge badge-pill badge-info mb-2 content-item">
+                                            <a href="#" class="nav-link hvr-skew-forward">FIELD COLLECTION</a>
+                                        </span>
+                                        <span class="badge badge-pill badge-info mb-2 content-item">
+                                            <a href="#" class="nav-link hvr-skew-forward">GENERAL
+                                                INFORMATION</a>
+                                        </span>
+                                        <span class="badge badge-pill badge-info content-item">
+                                            <a href="#" class="nav-link hvr-skew-forward">CREDIT CARD
+                                                COLLECTION</a>
+                                        </span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ↓ BLOCK FE ACADEMY ↓ -->
+                        <h2 class="text-monospace font-weight-bold display-4 text-left mt-4">FE ACADEMY</h2>
+                        <hr class="my-2" />
+                        <!-- Version 2 -->
+                        <div class="row justify-content-center align-items-baseline fe-academy mt-4" id="intro-step-9">
+                            <div class="col-lg-4 mb-5">
+                                <!-- Collapse Panel 1-->
+                                <a data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="true"
+                                    aria-controls="collapseExample1"
+                                    class="btn btn-block py-2 shadow-sm with-chevron btn-menuOne">
+                                    <p class="d-flex align-items-center justify-content-between mb-0 px-3 py-2"><strong
+                                            class="text-uppercase text-white">Khóa học tùy chọn</strong><i
+                                            class="fa fa-angle-down text-white"></i></p>
+                                </a>
+                                <div id="collapseExample1" class="collapse shadow-sm show">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="nav flex-column nav-pills nav-pills-custom" id="v-early-tab"
+                                                role="tablist" aria-orientation="vertical">
+                                                <a class="nav-link mb-3 shadow " id="v-pills-early-tab"
+                                                    data-toggle="pill" href="#v-pills-early" role="tab"
+                                                    aria-controls="v-pills-early" aria-selected="true">
+                                                    <span
+                                                        class="font-weight-bold small text-uppercase sub-item hvr-grow text-dark"><i
+                                                            class="fa fa-book mr-1"></i>Manual
+                                                        Facial Recognition Test</span>
+                                                </a>
+
+                                                <a class="nav-link mb-3 shadow" id="v-pills-field-tab"
+                                                    data-toggle="pill" href="#v-pills-field" role="tab"
+                                                    aria-controls="v-pills-field" aria-selected="false">
+                                                    <span
+                                                        class="font-weight-bold small text-uppercase sub-item hvr-grow text-dark"><i
+                                                            class="fa fa-book mr-1"></i>Hướng
+                                                        dẫn quyết
+                                                        toán thuế
+                                                        TNCN</span>
+                                                </a>
+
+                                                <a class="nav-link mb-3 shadow" id="v-pills-credit-card-tab"
+                                                    data-toggle="pill" href="#v-pills-credit-card" role="tab"
+                                                    aria-controls="v-pills-credit-card" aria-selected="false">
+                                                    <span
+                                                        class="font-weight-bold small text-uppercase sub-item hvr-grow text-dark"><i
+                                                            class="fa fa-book mr-1"></i>Tổng
+                                                        Quan Về
+                                                        Phần Mềm Kế
+                                                        Toán</span>
+                                                </a>
+
+                                                <a class="nav-link mb-3 shadow" id="v-pills-field-tab"
+                                                    data-toggle="pill" href="#v-pills-field" role="tab"
+                                                    aria-controls="v-pills-field" aria-selected="false">
+                                                    <span
+                                                        class="font-weight-bold small text-uppercase sub-item hvr-grow text-dark"><i
+                                                            class="fa fa-book mr-1"></i>HƯỚNG
+                                                        DẪN SỬ
+                                                        DỤNG HỆ THỐNG
+                                                        QUẢN LÝ CÔNG VIỆC - PMS</span>
+                                                </a>
+
+                                                <a class="nav-link mb-3 shadow" id="v-pills-credit-card-tab"
+                                                    data-toggle="pill" href="#v-pills-credit-card" role="tab"
+                                                    aria-controls="v-pills-credit-card" aria-selected="false">
+                                                    <span
+                                                        class="font-weight-bold small text-uppercase sub-item hvr-grow text-dark"><i
+                                                            class="fa fa-book mr-1"></i>Operational
+                                                        Risk</span>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-5">
+                                <!-- Collapse Panel 2-->
+                                <button data-toggle="collapse" data-target="#collapseExample2" role="button"
+                                    aria-expanded="true" aria-controls="collapseExample2"
+                                    class="btn btn-block py-2 shadow-sm with-chevron btn-menuTwo">
+                                    <p class="d-flex align-items-center justify-content-between mb-0 px-3 py-2"><strong
+                                            class="text-uppercase text-white">CS</strong><i
+                                            class="fa fa-angle-down text-white"></i></p>
+                                </button>
+                                <div id="collapseExample2" class="collapse shadow-sm show">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="nav flex-column nav-pills nav-pills-custom" id="v-early-tab"
+                                                role="tablist" aria-orientation="vertical">
+                                                <a class="nav-link mb-3 shadow " id="v-pills-early-tab"
+                                                    data-toggle="pill" href="#v-pills-early" role="tab"
+                                                    aria-controls="v-pills-early" aria-selected="true">
+                                                    <span
+                                                        class="font-weight-bold small text-uppercase sub-item hvr-grow text-dark"><i
+                                                            class="fa fa-book mr-1"></i>Onboard
+                                                        &
+                                                        Foundation</span>
+                                                </a>
+
+                                                <a class="nav-link mb-3 shadow" id="v-pills-field-tab"
+                                                    data-toggle="pill" href="#v-pills-field" role="tab"
+                                                    aria-controls="v-pills-field" aria-selected="false">
+                                                    <span
+                                                        class="font-weight-bold small text-uppercase sub-item hvr-grow text-dark"><i
+                                                            class="fa fa-book mr-1"></i>Khóa
+                                                        học Onboard
+                                                        dành cho
+                                                        nhân
+                                                        viên CS</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-5">
+                                <!-- Collapse Panel 3-->
+                                <a data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true"
+                                    aria-controls="collapseExample3"
+                                    class="btn btn-block p2-3 shadow-sm with-chevron btn-menuThree">
+                                    <p class="d-flex align-items-center justify-content-between mb-0 px-3 py-2"><strong
+                                            class="text-uppercase text-white">Others</strong><i
+                                            class="fa fa-angle-down text-white"></i></p>
+                                </a>
+                                <div id="collapseExample3" class="collapse shadow-sm show">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="nav flex-column nav-pills nav-pills-custom" id="v-early-tab"
+                                                role="tablist" aria-orientation="vertical">
+                                                <a class="nav-link mb-3 shadow " id="v-pills-early-tab"
+                                                    data-toggle="pill" href="#v-pills-early" role="tab"
+                                                    aria-controls="v-pills-early" aria-selected="true">
+                                                    <span
+                                                        class="font-weight-bold small text-uppercase sub-item hvr-grow text-dark"><i
+                                                            class="fa fa-book mr-1"></i>Information
+                                                        Security
+                                                        Training
+                                                        Module - ISO 2020</span>
+                                                </a>
+
+                                                <a class="nav-link mb-3 shadow" id="v-pills-field-tab"
+                                                    data-toggle="pill" href="#v-pills-field" role="tab"
+                                                    aria-controls="v-pills-field" aria-selected="false">
+                                                    <span
+                                                        class="font-weight-bold small text-uppercase sub-item hvr-grow text-dark"><i
+                                                            class="fa fa-book mr-1"></i>Nền
+                                                        tảng Quản
+                                                        trị Rủi Ro /
+                                                        Risk
+                                                        foundation</span>
+                                                </a>
+                                                <a class="nav-link mb-3 shadow " id="v-pills-early-tab"
+                                                    data-toggle="pill" href="#v-pills-early" role="tab"
+                                                    aria-controls="v-pills-early" aria-selected="true">
+                                                    <span
+                                                        class="font-weight-bold small text-uppercase sub-item hvr-grow text-dark"><i
+                                                            class="fa fa-book mr-1"></i>E-leadership
+                                                        -
+                                                        English
+                                                        version</span>
+                                                </a>
+
+                                                <a class="nav-link mb-3 shadow" id="v-pills-field-tab"
+                                                    data-toggle="pill" href="#v-pills-field" role="tab"
+                                                    aria-controls="v-pills-field" aria-selected="false">
+                                                    <span
+                                                        class="font-weight-bold small text-uppercase sub-item hvr-grow text-dark"><i
+                                                            class="fa fa-book mr-1"></i>E-leadership
+                                                        -
+                                                        Vietnamese
+                                                        version</span>
+                                                </a>
+                                                <a class="nav-link mb-3 shadow " id="v-pills-early-tab"
+                                                    data-toggle="pill" href="#v-pills-early" role="tab"
+                                                    aria-controls="v-pills-early" aria-selected="true">
+                                                    <span
+                                                        class="font-weight-bold small text-uppercase sub-item hvr-grow text-dark"><i
+                                                            class="fa fa-book mr-1"></i>Business
+                                                        Acumen</span>
+                                                </a>
+
+                                                <a class="nav-link mb-3 shadow" id="v-pills-field-tab"
+                                                    data-toggle="pill" href="#v-pills-field" role="tab"
+                                                    aria-controls="v-pills-field" aria-selected="false">
+                                                    <span
+                                                        class="font-weight-bold small text-uppercase sub-item hvr-grow text-dark"><i
+                                                            class="fa fa-book mr-1"></i>Training
+                                                        Program
+                                                        For Top
+                                                        Management</span>
+                                                </a>
+
+                                                <a class="nav-link mb-3 shadow" id="v-pills-field-tab"
+                                                    data-toggle="pill" href="#v-pills-field" role="tab"
+                                                    aria-controls="v-pills-field" aria-selected="false">
+                                                    <span
+                                                        class="font-weight-bold small text-uppercase sub-item hvr-grow text-dark"><i
+                                                            class="fa fa-book mr-1"></i>Training
+                                                        Program
+                                                        For Middle
+                                                        Managers</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Version 2 -->
+                    </div>
+                    <!-- ↑ BLOCK FE ACADEMY ↑ -->
+                    <!-- ↓ BLOCK MANDATORY ↓ -->
+                    <div class="container-fluid">
+                        <h2 class="text-monospace font-weight-bold display-4 text-left">MANDATORY TRAINING</h2>
+                        <hr class="my-2" />
+                        <div class="row card-group flex-row pl-3 pr-3  mt-4 mb-4">
+
+                            <div class="col col-xl-6 col-lg-6 col-md-12 col-sm-12 mandatory text-center chart-mine"
+                                id="intro-step-10">
+                                <div class="page-header">
+                                    <h4>Overall Cá nhân</h4>
+                                </div>
+                                <div
+                                    class="wrap-content-mandatory d-flex justify-content-center align-items-center flex-row table-responsive mt-4">
+                                    <div class="progress-circle" data-progress="100"></div>
+
+                                    <table class="table table-hover table-sm">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row" class="text-left"><i class="fa fa-book mr-1"></i>Quản Lý
+                                                    Rủi
+                                                    Ro Hoạt
+                                                    Động Cơ Bản</th>
+                                                <td><i class="fa fa-check-circle ml-1"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" class="text-left"><i class="fa fa-book mr-1"></i>Pháp Lý
+                                                    Và
+                                                    Tuân Thủ
+                                                    Tại VPB FC</th>
+                                                <td><i class="fa fa-check-circle ml-1"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" class="text-left"><i class="fa fa-book mr-1"></i>Giá trị
+                                                    cốt
+                                                    lõi của
+                                                    FE</th>
+                                                <td><i class="fa fa-check-circle ml-1"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" class="text-left"><i class="fa fa-book mr-1"></i>Nội quy
+                                                    lao
+                                                    động</th>
+                                                <td><i class="fa fa-check-circle ml-1"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" class="text-left"><i class="fa fa-book mr-1"></i>Thỏa
+                                                    ước
+                                                    lao động tập
+                                                    thể</th>
+                                                <td><i class="fa fa-check-circle ml-1"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" class="text-left"><i class="fa fa-book mr-1"></i>Phòng
+                                                    Tránh
+                                                    Khủng
+                                                    Hoảng Truyền Thông</th>
+                                                <td><i class="fa fa-check-circle ml-1"></i></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-6 col-lg-6 col-md-12 col-sm-12 mandatory text-center chart-empl"
+                                id="intro-step-11">
+                                <div class="page-header">
+                                    <h4>Overall Nhân viên</h4>
+                                </div>
+                                <div
+                                    class="wrap-content-mandatory d-flex justify-content-center align-items-center flex-row table-responsive mt-4">
+                                    <div class="progress-circle" data-progress="84"></div>
+
+                                    <table class="table table-hover table-sm table-fixed">
+                                        <tbody>
+                                            <tr class="d-flex align-items-center justify-content-center">
+                                                <th scope="row" class="text-left w-75"><i
+                                                        class="fa fa-user mr-1"></i></i>Lê
+                                                    Nguyễn Thái Dương</th>
+                                                <td class="w-40">
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 75%;"
+                                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="d-flex align-items-center justify-content-center">
+                                                <th scope="row" class="text-left w-75"><i
+                                                        class="fa fa-user mr-1"></i></i>Lê
+                                                    Nguyễn Thái Dương</th>
+                                                <td class="w-40">
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar"
+                                                            style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                                                            aria-valuemax="100">100%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="d-flex align-items-center justify-content-center">
+                                                <th scope="row" class="text-left w-75"><i
+                                                        class="fa fa-user mr-1"></i></i>Lê
+                                                    Nguyễn Thái Dương</th>
+                                                <td class="w-40">
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 95%;"
+                                                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="d-flex align-items-center justify-content-center">
+                                                <th scope="row" class="text-left w-75"><i
+                                                        class="fa fa-user mr-1"></i></i>Lê
+                                                    Nguyễn Thái Dương</th>
+                                                <td class="w-40">
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar"
+                                                            style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                                                            aria-valuemax="100">100%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="d-flex align-items-center justify-content-center">
+                                                <th scope="row" class="text-left w-75"><i
+                                                        class="fa fa-user mr-1"></i></i>Lê
+                                                    Nguyễn Thái Dương</th>
+                                                <td class="w-40">
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 75%;"
+                                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="d-flex align-items-center justify-content-center">
+                                                <th scope="row" class="text-left w-75"><i
+                                                        class="fa fa-user mr-1"></i></i>Lê
+                                                    Nguyễn Thái Dương</th>
+                                                <td class="w-40">
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar"
+                                                            style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                                                            aria-valuemax="100">100%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="d-flex align-items-center justify-content-center">
+                                                <th scope="row" class="text-left w-75"><i
+                                                        class="fa fa-user mr-1"></i></i>Lê
+                                                    Nguyễn Thái Dương</th>
+                                                <td class="w-40">
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar"
+                                                            style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                                                            aria-valuemax="100">100%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="d-flex align-items-center justify-content-center">
+                                                <th scope="row" class="text-left w-75"><i
+                                                        class="fa fa-user mr-1"></i></i>Lê
+                                                    Nguyễn Thái Dương</th>
+                                                <td class="w-40">
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar"
+                                                            style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                                                            aria-valuemax="100">100%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="d-flex align-items-center justify-content-center">
+                                                <th scope="row" class="text-left w-75"><i
+                                                        class="fa fa-user mr-1"></i></i>Lê
+                                                    Nguyễn Thái Dương</th>
+                                                <td class="w-40">
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar"
+                                                            style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                                                            aria-valuemax="100">100%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="d-flex align-items-center justify-content-center">
+                                                <th scope="row" class="text-left w-75"><i
+                                                        class="fa fa-user mr-1"></i></i>Lê
+                                                    Nguyễn Thái Dương</th>
+                                                <td class="w-40">
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar"
+                                                            style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                                                            aria-valuemax="100">100%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="d-flex align-items-center justify-content-center">
+                                                <th scope="row" class="text-left w-75"><i
+                                                        class="fa fa-user mr-1"></i></i>Lê
+                                                    Nguyễn Thái Dương</th>
+                                                <td class="w-40">
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar"
+                                                            style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                                                            aria-valuemax="100">100%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ↑ BLOCK MANDATORY ↑ -->
+                    <!-- ↓ BLOCK CURRICULUM ↓ -->
+                    <section class="container-fluid curriculum table-responsive">
+                        <h2 class="text-monospace font-weight-bold display-4 text-left mt-4">CURRICULUM</h2>
+                        <hr class="my-2">
+                        <table
+                            class="table table-bordered table-striped table-hover col col-xl-12 col-lg-12 col-md-12 col-sm-12 generaltable mt-4"
+                            id="yui_3_17_2_1_1596430403574_31">
+                            <thead id="yui_3_17_2_1_1596430403574_39" class="text-white">
+                                <tr id="yui_3_17_2_1_1596430403574_38">
+                                    <th rowspan="2" id="yui_3_17_2_1_1596430403574_37" class="align-middle">PROGRAM
+                                    </th>
+                                    <th colspan="3">SCHOOL OF RECOVERY</th>
+                                    <th colspan="3">SCHOOL OF SALE</th>
+                                </tr>
+                                <tr>
+                                    <th>EC</th>
+                                    <th>FC</th>
+                                    <th>CRC</th>
+                                    <th>DSA</th>
+                                    <th>POS</th>
+                                    <th>TSA</th>
+                                </tr>
+                            </thead>
+                            <thead></thead>
+                            <tbody id="yui_3_17_2_1_1596430403574_30">
+                                <tr class="topic-title topic-1">
+                                    <td colspan="7" class="hvr-shadow topic-title text-white text-center">MANAGEMENT
+                                        &amp; LEADERSHIP</td>
+                                </tr>
+                                <tr class="topic-1">
+                                    <td class="program">FFM1 - Planning &amp; Scheduling</td>
+                                    <td>
+                                        <a href="/course/view.php?id=4478" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4481" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4484" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4473" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4470" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4475" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="topic-1">
+                                    <td class="program">FFM2 - Reporting &amp; Communication</td>
+                                    <td>
+                                        <a href="/course/view.php?id=4478" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4481" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4484" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4473" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4470" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4475" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="topic-1">
+                                    <td class="program">FFM3 - Coaching &amp; Supervising</td>
+                                    <td>
+                                        <a href="/course/view.php?id=4478" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4481" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4484" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4473" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4470" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4475" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="topic-1" id="yui_3_17_2_1_1596430403574_29">
+                                    <td class="program" id="yui_3_17_2_1_1596430403574_28">FFM4 - Motivation</td>
+                                    <td>
+                                        <a href="/course/view.php?id=4478" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4481" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4484" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4473" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4470" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4475" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="topic-1">
+                                    <td class="program">Performance management</td>
+                                    <td>
+
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                </tr>
+                                <tr class="topic-1">
+                                    <td class="program">PaPa</td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                </tr>
+                                <tr class="topic-1">
+                                    <td class="program">Problem Solving</td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                </tr>
+                                <tr class="topic-1">
+                                    <td class="program">Risk Foundation</td>
+                                    <td>
+                                        <a href="/course/view.php?id=4497" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4497" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4497" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4497" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4497" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4497" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="topic-title topic-2">
+                                    <td colspan="7" class="hvr-shadow topic-title text-white text-center">SKILL
+                                        DEVELOPMENT</td>
+                                </tr>
+                                <tr class="topic-2">
+                                    <td class="program">Skip Tracing Model</td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="topic-2">
+                                    <td class="program">Call Collection emotion control</td>
+                                    <td>
+                                        <a href="/course/view.php?id=4453" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="/course/view.php?id=4483" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="topic-2">
+                                    <td class="program">The checkmate call objection handling</td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <a href="/course/view.php?id=3355" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="topic-2">
+                                    <td class="program">TUXS Call Consultation skill (3C)</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <a href="/course/view.php?id=3355" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="topic-2">
+                                    <td class="program">The field base objection handling skill</td>
+                                    <td></td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4469" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr class="topic-2">
+                                    <td class="program">EC Collection Consultation skill (PAIDS)</td>
+                                    <td>
+                                        <a href="/course/view.php?id=4453" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="/course/view.php?id=4483" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="topic-2">
+                                    <td class="program">CASHIN</td>
+                                    <td></td>
+                                    <td>
+                                        <a href="/course/view.php?id=3439" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4483" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="topic-2">
+                                    <td class="program">WOW FE (level 4)</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <a href="/course/view.php?id=4469" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr class="topic-2">
+                                    <td class="program">ENRICH (level 4)</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <a href="/course/view.php?id=4553" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="topic-title topic-3 ">
+                                    <td colspan="7" class="hvr-shadow topic-title text-white text-center">ONBOARD
+                                        &amp;
+                                        FOUNDATION</td>
+                                </tr>
+                                <tr class="topic-3">
+                                    <td class="program">Orientation</td>
+                                    <td>
+                                        <a href="/course/view.php?id=4476" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4479" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4482" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4471" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4468" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4431" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="topic-3">
+                                    <td class="program">Core Value</td>
+                                    <td>
+                                        <a href="/course/view.php?id=4476" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4479" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4482" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4471" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4468" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4431" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="topic-3">
+                                    <td class="program">Product Knowledge</td>
+                                    <td>
+                                        <a href="/course/view.php?id=4476" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4479" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4482" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4471" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4468" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4431" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="topic-3">
+                                    <td class="program">System operation skill</td>
+                                    <td>
+                                        <a href="/course/view.php?id=4476" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4479" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4482" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4471" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4468" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4431" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="topic-3">
+                                    <td class="program">Loan App Process Understanding</td>
+                                    <td>
+                                        <a href="/course/view.php?id=4476" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4479" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4482" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4471" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4468" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4431" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="topic-3">
+                                    <td class="program">Field base collection skill (level 3)</td>
+                                    <td></td>
+                                    <td>
+                                        <a href="/course/view.php?id=4479" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4482" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="topic-3">
+                                    <td class="program">Call base collection skill (level 3)</td>
+                                    <td>
+                                        <a href="/course/view.php?id=4476" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="/course/view.php?id=4482" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="topic-3">
+                                    <td class="program">Field base consultant skill (level 3)</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <a href="/course/view.php?id=4471" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/course/view.php?id=4468" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr class="topic-3">
+                                    <td class="program">Call base consultant skill (level 3)</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <a href="/course/view.php?id=4431" class="btn btn-outline-success btn-outline">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="btn-rate">
+                                            <i class="fa fa-star"></i>
+                                        </a>
+                                        <a href="#" class="btn-report">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <!-- ↑ BLOCK CURRICULUM ↑ -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ↑ BLOCK SOURCES ↑ -->
+    <!-- ↑ BLOCK MAIN ↑ -->
+    <!-- ↓ BLOCK FOOTER ↓ -->
+    <footer class="bg-white">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 text-center">
+                    <img src="https://training.fecredit.com.vn/theme/image.php/atstwo/theme/1596021171/logo-vn" alt=""
+                        class="d-inline-block align-middle mr-2">
+                    <div class="social mt-2 mb-3 d-flex flex-row justify-content-center align-items-center">
+                        <a href="http://fecredit.com.vn/"><i class="fa fa-home"></i></a>
+                        <a class="ml-3 mr-3" href="http://fecredit.com.vn/"><i class="fa fa-facebook-square"></i></a>
+                        <a href="http://fecredit.com.vn/"><i class="fa fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4 mb-lg-0 ">
+                    <h6 class="text-uppercase font-weight-bold mb-4 text-center">TRUNG TÂM ĐÀO TẠO</h6>
+                    <ul class="list-unstyled mb-0 text-center ">
+                        <li class="mb-2 text-left">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-award mr-1" fill="#008345"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M9.669.864L8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193l-1.51-.229L8 1.126l-1.355.702-1.51.229-.684 1.365-1.086 1.072L3.614 6l-.25 1.506 1.087 1.072.684 1.365 1.51.229L8 10.874l1.356-.702 1.509-.229.684-1.365 1.086-1.072L12.387 6l.248-1.506-1.086-1.072-.684-1.365z" />
+                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+                            </svg>
+                            Khai giảng và tổ chức các khóa đào tạo</li>
+                        <li class="mb-2 text-left">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock mr-1" fill="#008345"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                            </svg>
+                            Thứ 2 - thứ 6 (8h30 - 11h30, 13h30 - 16h30)</li>
+                        <li class="mb-2 text-left">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door mr-1"
+                                fill="#008345" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z" />
+                                <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                            </svg>
+                            Lầu 3A, tòa nhà Cộng Hòa Garden</li>
+                        <li class="mb-2 text-left">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-map mr-1" fill="#008345"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M15.817.613A.5.5 0 0 1 16 1v13a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 14.51l-4.902.98A.5.5 0 0 1 0 15V2a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0l4.902.98 4.902-.98a.5.5 0 0 1 .415.103zM10 2.41l-4-.8v11.98l4 .8V2.41zm1 11.98l4-.8V1.61l-4 .8v11.98zm-6-.8V1.61l-4 .8v11.98l4-.8z" />
+                            </svg>
+                            Số 20 Cộng hòa, P.12, Q.Tân Bình, TP.HCM</li>
+                        <li class="mb-2 text-left">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope mr-1" fill="#008345"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                            </svg>
+                            ATS_onlinetrainingsystem@fecredit.com.vn</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 text-center">
+                    <h6 class="text-uppercase font-weight-bold mb-4 text-center">TẢI ỨNG DỤNG</h6>
+                    <div class="download-app d-flex justify-content-center align-items-center m-2">
+                        <div class="block-qr-download d-flex align-items-center flex-column">
+                            <img src="https://training.fecredit.com.vn/theme/image.php/atstwo/theme/1596021171/google-play"
+                                alt="">
+                            <img src="https://training.fecredit.com.vn/theme/image.php/atstwo/theme/1596021171/frame"
+                                style="width: 75px;" alt="">
+                        </div>
+                        <div class="block-qr-download d-flex align-items-center flex-column m-2">
+                            <img src="https://training.fecredit.com.vn/theme/image.php/atstwo/theme/1596021171/appstore"
+                                alt="">
+                            <img src="https://training.fecredit.com.vn/theme/image.php/atstwo/theme/1596021171/ios"
+                                style="width: 75px;" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyrights -->
+        <div class="bg-light py-2">
+            <div class="container text-center">
+                <p class="text-muted mb-0 py-2 copyright">© BẢN QUYỀN THUỘC VỀ FE CREDIT 2018</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ↑ BLOCK FOOTER ↑ -->
+    <a id="back-to-top" href="#" class="btn btn-light back-to-top" role="button"><i class="fa fa-chevron-up"></i></a>
+</body>
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./assets/js/intro.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+<script src="https://www.qtac.edu.au/wp-content/plugins/bdthemes-element-pack/assets/vendor/js/SplitText.min.js"></script>
+<script type="text/javascript" src="./assets/js/script.js"></script>
+
+</html>
