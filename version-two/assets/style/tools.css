@@ -1,0 +1,64 @@
+.tools {
+    padding: 30px 0 40px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.section-title h2 {
+    color: #292e2f;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 3rem;
+    width: 100%;
+}
+
+.section-title h2:after {
+    background: #008347;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 4px;
+    width: 50px;
+    margin-left: -19px;
+}
+
+@media screen and (min-width: 375px) {
+    .section-title h2 {
+        padding-bottom: 20px;
+        width: 78%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .tools {
+        padding: 40px 0 20px;
+    }
+
+    .section-title h2:after {
+        width: 38px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-title {
+        margin-bottom: 30px;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .tools .section-title {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FE ATS</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./assets/style/all.min.css">
+    <link rel="stylesheet" href="./assets/style/header.css">
+    <link rel="stylesheet" href="./assets/style/slider.css">
+    <link rel="stylesheet" href="./assets/style/tools.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- ↓ BLOCK HEADER ↓ -->
+    <div class="header sticked">
+        <div class="container">
+            <!-- Logo -->
+            <a href="#" class="header-logo main-logo">
+                <img src="https://training.fecredit.com.vn/theme/image.php/atstwo/theme/1596021171/logo-vn"
+                    alt="Main Logo">
+            </a>
+            <!-- Menu -->
+            <ul class="header-menu navbar-primary" animation-type="fadeInUp" style="display: flex;">
+                <li class="has-mega-menu">
+                    <a class="active navbar-item" href="#">Khóa học</a>
+                    <ul class="mega-menu">
+                        <li>dsa</li>
+                        <li>dsad</li>
+                    </ul>
+                </li>
+                <li class="has-mega-menu">
+                    <a class="navbar-item" href="#">Tài nguyên</a>
+                </li>
+                <li class="has-mega-menu">
+                    <a class="navbar-item" href="#">Lịch</a>
+                </li>
+                <li class="has-mega-menu">
+                    <a class="navbar-item" href="#">Follow-up</a>
+                </li>
+                <li class="has-mega-menu">
+                    <a class="navbar-item" href="#">Đánh giá sau đào tạo</a>
+                </li>
+                <li class="has-mega-menu">
+                    <a class="navbar-item" href="#">Diễn đàn</a>
+                </li>
+            </ul>
+            <!-- Functions right -->
+            <div class="header-function">
+                <ul class="navbar-sticky">
+                    <li>
+                        <a href="#"><i class="fad fa-bell"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fad fa-search"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fad fa-globe-europe"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fad fa-user-alt"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Logo TC -->
+            <img id="logo-tc" src="https://training.fecredit.com.vn/theme/image.php/atstwo/theme/1596021171/logoTC_100"
+                style="width:70px">
+        </div>
+    </div>
+    <!-- ↑ BLOCK HEADER ↑ -->
+
+    <!-- ↓ BLOCK SLIDER ↓ -->
+    <section class="slider">
+        <div class="container">
+            <div class="nav-tab slider--tab slider--menu-collapse">
+                <div class="nav-tab__content slider-tab-content">
+                    <!-- Tab list-->
+                    <div class="tab-pane animated active fadeInUp">
+                        <div class="row">
+                            <div class="col-lg-8 slider-wrap__left">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100"
+                                                src="https://training.fecredit.com.vn/pluginfile.php/1/theme_atstwo/slide9image/1596021171/9-orientation.png"
+                                                alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100"
+                                                src="https://training.fecredit.com.vn/pluginfile.php/1/theme_atstwo/slide7image/1596021171/Training-Catalog.jpg"
+                                                alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100"
+                                                src="https://training.fecredit.com.vn/pluginfile.php/1/theme_atstwo/slide1image/1596021171/Mandatory-Training.jpg"
+                                                alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 timeline-wrap__right">
+                                <div class="timeline-wrap__right_content" id="scroll">
+                                    <!-- Right timeline-->
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, blanditiis a
+                                        porro quam magnam aspernatur, odio voluptas corrupti possimus voluptates,
+                                        similique fugiat distinctio laborum repellat beatae placeat magni iusto!
+                                        Repellat.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ↑ BLOCK SLIDER ↑ -->
+
+    <!-- ↓ BLOCK TOOLS ↓ -->
+    <section class="tools">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tools</h2>
+            </div>
+            <div class="tools__content slick-initialized slick-slider">
+            </div>
+        </div>
+    </section>
+    <!-- ↑ BLOCK TOOLS ↑ -->
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+
+</html>
