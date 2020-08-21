@@ -1,0 +1,36 @@
+.materials {
+    background-image: radial-gradient(115% 80% at top left, transparent 90%, #fff 95.5%), linear-gradient(to right bottom, #39df9c, #3adb89, #40d675, #48d160, #51cc48);
+    border: 1px solid #cdcdcd;
+    display: flex!important;
+    justify-content: center;
+    align-items: initial;
+    height: 300px;
+}
+
+span.content-item {
+    background-color: #f0ffffde;
+    box-shadow: 10px 10px 10px #abababcc;
+    color: #fff;
+}
+
+h4.card-title.text-center.source-name {
+    margin-top: 15px;
+    font-family: Nunito Sans, serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0;
+}
+
+.school {
+    background-image: url("https://www.vpbank.com.vn/-/media/vpbank-latest/6all/icon/lien-he/talk-to-us-bg-dt.png?h=120&w=1440&la=vi-VN&hash=EFDF78854387A07B0D1F9D861901C4B7");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #f4f7f8;
+    padding: 253px;
+}
+
+.school .container .card-desk {
+    height: 300px;
+}

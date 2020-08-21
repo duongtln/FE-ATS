@@ -1,0 +1,57 @@
+.empl-link {
+	color: #000;
+	cursor: pointer;
+}
+
+.empl-link:hover {
+	text-decoration: none;
+	color: #000000c2;
+}
+
+.detail-empl{
+	display:none;
+	border: none;
+    animation: rotating 1s infinite; 
+	animation-iteration-count: 1;
+}
+
+#intro-step-11 {
+    animation: rotating 1s infinite; 
+	animation-iteration-count: 1;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-header h4 {
+    color: #8e989a;
+    font-size: 1.6em;
+}
+
+
+@keyframes rotating 
+{
+    from
+    {
+        transform: rotateY(180deg);
+		opacity: 0;
+    }
+    to
+    {
+        transform: rotateY(0deg);
+    }
+ }
+
+ section.mandatory {
+    padding: 190px;
+    background-image: linear-gradient(180deg,hsla(0,0%,100%,0) 60%,#fff),linear-gradient(70deg,#dbedff 32%,#ebfff0);
+    height: 790px;
+}
+
+.wrap-content-mandatory table.table.table-hover.table-sm {
+    font-size: 17px;
+    color: #292e2f;
+}

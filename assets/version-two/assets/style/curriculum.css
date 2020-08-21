@@ -1,0 +1,167 @@
+.generaltable th {
+	border: 1px solid #47d46a !important;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #28a745d1 !important;
+	font-size: 15px;
+}
+
+.generaltable td {
+	text-align: center;
+	vertical-align: middle;
+	border-left: 1px solid #ddd;
+}
+
+
+.generaltable td.topic-title {
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;
+	background: linear-gradient(to right, #39df9c, #51cc48, #39df9c);
+	font-size: 15px;
+}
+
+.generaltable td.program {
+	text-align: left;
+	vertical-align: middle;
+	color: #292e2f;
+	font-family: Nunito Sans, serif;
+	font-size: 1.6rem;
+}
+
+.btn-link {
+	color: #888888;
+	border: 1px solid #888888;
+	padding: 3px 4.5px;
+	margin: 0px 4px;
+}
+
+.btn-link:hover {
+	color: #ffffff;
+	border: 1px solid #888888;
+	background-color: #888888;
+}
+
+.btn-rate {
+	color: #e0a800;
+	border: 1px solid #e0a800;
+	padding: 3px 4.5px;
+	margin: 0px 4px;
+	display: none;
+}
+
+.btn-rate:hover {
+	color: #ffffff;
+	border: 1px solid #e0a800;
+	background-color: #e0a800;
+}
+
+.btn-report {
+	color: #008445;
+	border: 1px solid #008445;
+	padding: 3px;
+	margin: 0px 4px;
+	display: none;
+}
+
+.btn-report:hover {
+	color: #ffffff;
+	border: 1px solid #008445;
+	background-color: #008445;
+}
+
+.chart {
+	border: 1px solid #0e7144;
+	min-height: 300px;
+}
+
+.chart h1,
+.chart h4 {
+	width: 100%;
+	text-align: center;
+}
+
+.chart h4 {
+	font-size: 11px;
+	margin: 0px;
+	color: #907881;
+}
+
+.chart #chart-1 {
+	padding: 5px;
+	width: 100%;
+	min-height: 240px;
+}
+
+.chart-3 {
+	width: 100%;
+	min-height: 100px;
+}
+
+@media (max-width: 800px) {
+
+	.contents-detail {
+		margin: 2px;
+	}
+
+	.generaltable td.topic-title {
+		font-size: 11px;
+		text-align: left;
+	}
+
+	.generaltable td.program {
+		font-size: 11px;
+	}
+
+	.generaltable td {
+		padding: 2px;
+	}
+
+	.generaltable td .btn-success {
+		padding: 2px 5px;
+		font-size: 11px;
+	}
+
+	.generaltable th {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 992px) {}
+
+.btn-outline {
+	background-color: transparent;
+	color: inherit;
+	transition: all .5s;
+	border: 1px solid #5cb85c !important;
+}
+
+i.fa.fa-arrow-right {
+	color: #5cb85c;
+}
+
+a.btn.btn-outline-success.btn-outline:hover i {
+	color: #fff !important;
+}
+
+svg.svg-inline--fa.fa-arrow-right.fa-w-14 {
+	color: #4dcf55;
+}
+
+/* Rounded tabs */
+
+@media (min-width: 576px) {
+	.rounded-nav {
+		border-radius: 50rem !important;
+	}
+}
+
+@media (min-width: 576px) {
+	.rounded-nav .nav-link {
+		border-radius: 50rem !important;
+	}
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #008347!important;
+}

@@ -1,0 +1,27 @@
+section.fe-academy {
+    padding: 175px;
+}
+
+.with-chevron[aria-expanded='true'] i {
+    display: block;
+    transform: rotate(180deg) !important;
+}
+
+.btn-menuOne,
+.btn-menuTwo,
+.btn-menuThree {
+    background-color: #0ca75e !important;
+    font-size: 16px;
+}
+
+.btn-menuOne:hover,
+.btn-menuTwo:hover,
+.btn-menuThree:hover {
+    background-color: #008848c4 !important;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
