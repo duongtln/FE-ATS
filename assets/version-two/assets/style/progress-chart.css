@@ -20,7 +20,7 @@
 
 .progress-circle:before {
   align-items: center;
-  background-color: #fff;
+  background-image: linear-gradient(180deg,hsla(0,0%,100%,0) 60%,#fff),linear-gradient(70deg,#dbedff 32%,#ebfff0);
   border-radius: 50%;
   content: attr(data-progress) '%';
   display: flex;

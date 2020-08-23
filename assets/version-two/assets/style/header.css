@@ -25,12 +25,18 @@ a:hover {
     text-decoration: none;
 }
 
+div#fp-nav {
+    display: none;
+}
+
 /* Header */
 .header {
     z-index: 10;
-    position: relative;
+    position: fixed;
     background: #f4f7f8;
     height: 60px;
+    top: 0;
+    width: 100%;
 }
 
 /* .header.sticked {

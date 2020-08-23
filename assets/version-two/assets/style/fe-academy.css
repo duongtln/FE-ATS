@@ -1,5 +1,16 @@
 section.fe-academy {
-    padding: 175px;
+    position: relative;
+}
+
+#fe-academy-bg {
+    bottom: -50px;
+}
+
+#title-fe-academy {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -20%);
 }
 
 .with-chevron[aria-expanded='true'] i {
